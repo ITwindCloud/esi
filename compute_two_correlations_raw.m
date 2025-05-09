@@ -1,4 +1,7 @@
 load('data\msp_nuts.mat')
+load('data\nuts_Lp.mat');
+nuts.Lp = Lp;
+clear Lp
 load('data\openneuro_noise_baselined.mat');
 load('config-3-sources.mat')
 

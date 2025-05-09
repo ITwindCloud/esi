@@ -6,6 +6,9 @@ addpath('algorithm');
 load('config-3-sources.mat'); % config
 load('data\neighbors_8mm_60.mat');% neighbors
 load('data\msp_nuts.mat'); % nuts
+load('data\nuts_Lp.mat');
+nuts.Lp = Lp;
+clear Lp
 load('data\openneuro_noise_baselined.mat'); % raw noise
 
 lf = nuts.Lp;

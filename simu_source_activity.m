@@ -10,6 +10,8 @@ efficient_win_len = sp ;
 
 %% import previously computed data
 load data/msp_nuts.mat
+load data/nuts_Lp.mat
+nuts.Lp = Lp;
 
 voxels = nuts.voxels; % positions of voxels
 leadfield = nuts.Lp; % lead field
